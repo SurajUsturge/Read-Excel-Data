@@ -69,7 +69,6 @@ public class Read_excel_data_using_loop
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys(email);
 		driver.findElement(By.xpath("//input[@name='secondaryLoginClaim']")).sendKeys(mobileno);
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
-			
 	}
 
 }
